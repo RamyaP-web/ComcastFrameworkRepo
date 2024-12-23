@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.contactTest.Create_ContactTestTestNg"/>
+      <methods>
+      <include> name="com.comcast.crm.contactTest.CreateContact"/></include>
+      </methods>
+      
+     
+     <class name="com.comcast.crm.contactTest.CreateanOrgWithTestng"/>
+     <methods>
+     <include> name=""com.comcast.crm.contactTest.createOrg"/></include>
+     </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
