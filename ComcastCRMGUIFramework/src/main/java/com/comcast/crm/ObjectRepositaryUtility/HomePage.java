@@ -11,6 +11,9 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	public WebDriver driver;
 	Actions action;
+	
+	
+	
 	@FindBy(linkText="Products")
 	private WebElement products;
 	
