@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	public WebDriver driver;
 	Actions action;
+	@FindBy(linkText="Products")
+	private WebElement products;
 	
 
 	
@@ -72,6 +74,12 @@ public class HomePage {
 	public WebElement getSignOut() {
 		return SignOut;
 	}
+	
+
+	public WebElement getProducts() {
+		return products;
+	}
+
 
 	//Rule 5:- Object Utilization
 	/*
